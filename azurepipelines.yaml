@@ -9,7 +9,7 @@ steps:
   - script: sudo add-apt-repository universe
   - script: sudo apt-get install apt-transport-https
   - script: sudo apt-get update
-  - script: sudo apt-get install dotnet-sdk-6.0 -y
+  - script: sudo apt-get install -y dotnet-sdk-6.0 
   - task: DotNetCoreCLI@2
     displayName: 'dotnet restore'
     inputs:
