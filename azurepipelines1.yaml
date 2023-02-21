@@ -4,6 +4,6 @@ pool:
 trigger:
   - develop     
 extends:
-  template: ./parameters.yaml 
+  template: ./parameter.yaml 
   parameters:
     name: command
