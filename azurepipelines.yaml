@@ -5,6 +5,7 @@ trigger:
   - develop
 
 steps:
+  - script: sudo apt update
   - script: sudo add-apt-repository universe
   - script: sudo apt-get install apt-transport-https
   - script: sudo apt-get update
