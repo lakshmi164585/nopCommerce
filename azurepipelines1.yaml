@@ -6,4 +6,4 @@ trigger:
 extends:
   template: ./parameters.yaml 
   parameters:
-    string: retore 
+    name: command
