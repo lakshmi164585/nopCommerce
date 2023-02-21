@@ -1,0 +1,9 @@
+---
+pool:
+  name: Default 
+trigger:
+  - develop     
+extends:
+  template: ./parameters.yaml 
+  parameters:
+    string: retore 
