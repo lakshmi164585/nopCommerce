@@ -1,6 +1,6 @@
 ---
 pool:
-  name: "Azure pipelines"
+  name: Default
 trigger:
   - develop
 
