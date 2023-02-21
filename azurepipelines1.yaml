@@ -5,5 +5,4 @@ trigger:
   - develop     
 extends:
   template: ./parameter.yaml 
-  parameters:
-    command: restore
+
