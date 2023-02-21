@@ -6,5 +6,5 @@ trigger:
 extends:
   template: ./parameter.yaml 
   parameters:
-     command: 'restore'
+     command: 'build'
 
