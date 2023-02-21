@@ -1,0 +1,18 @@
+---
+pool:
+  name: Default 
+trigger:
+  - develop
+
+steps: 
+  - task: DotNetCoreCLI@2
+    displayName: 'dotnet restore'
+    inputs:
+      command: 'restore'      
+      feedsToUse: 'select'
+      projects: src/NopCommerce.sln
+      includeNuGetOrg: true
+  - task: DotNetCoreCLI@2  
+    inputs:
+      command: build
+      projects: src/NopCommerce.sln
