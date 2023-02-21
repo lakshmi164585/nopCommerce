@@ -6,4 +6,4 @@ trigger:
 extends:
   template: ./parameter.yaml 
   parameters:
-    command: install
+    command: 'install'
