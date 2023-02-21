@@ -6,7 +6,6 @@ parameters:
   values:
     - restore
     - build
-  default: false
 steps: 
   - task: DotNetCoreCLI@2
     displayName: 'dotnet restore'
