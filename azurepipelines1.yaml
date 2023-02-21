@@ -5,4 +5,6 @@ trigger:
   - develop     
 extends:
   template: ./parameter.yaml 
+  parameters:
+     string: 'restore'
 
