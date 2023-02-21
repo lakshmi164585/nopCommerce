@@ -2,7 +2,7 @@
 parameters:
 - name: command
   displayName: parameters for dotnet
-  type: step
+  type: string
   values:
     - restore
     - build
@@ -16,5 +16,5 @@ steps:
       includeNuGetOrg: true
   - task: DotNetCoreCLI@2  
     inputs:
-      command: build
+      command: 'build'
       projects: src/NopCommerce.sln
